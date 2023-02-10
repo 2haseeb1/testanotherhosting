@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'work sans',sans-serif;
+}
+.banner{
+    display: flex;
+}
+.banner-info{
+    margin-top: 130px;
+    margin-right: 200px;
+    margin-left: 130px;
+}
+.banner-title{
+font-size: 65px;
+font-weight: 700;
+line-height: 76px;
+color:#151414;
+
+
+}
+.banner-description{
+    
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+
+    
+
+}
+.banner-image{
+    margin-right: 200px;
+}
+.btn{
+    background: #F15B22;
+    height: 64px;
+    color:#fff;
+    border:0;
+    padding: 21px 26px;
+    margin-top:20px;
+    border-radius: 5px;
+    
+    
+}
+
+.btn:focus {
+    outline: none;
+  }
+.about-me{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 130px;
+    gap:87px;
+}
+.bio{
+    margin-right: 120px;
+}
+.plans-title{
+    text-align: center;
+}
+.plans-detail{
+    display: flex;
+    justify-content: space-between;
+    margin:100px 130px;
+    align-items: center;
+}
+
+ .plans-main-image{
+    margin-top: 100px;
+    margin-left: 200px;
+    width:90% ;
+    height:250px ;
+    background-image:linear-gradient(to left,rgba(0,0,0,0.7),rgba(252, 50, 5, 0.938)),url('../images/Rectangle\ 3.png');
+    background-repeat: no-repeat;
+    background-size: 80% 100%;
+}
+.img-title{
+    margin-top: 15px;
+    font-family: Work Sans;
+font-size: 30px;
+font-weight: 700;
+color: #151414;
+;
+}
+.bio-title{
+
+font-size: 40px;
+font-weight: 500;
+color: #141514;
+
+
+}
+.bio-description{
+
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+margin-top: 24px;
+color:#444343;
+
+}
+.bio-belief{
+color:#444343;
+
+font-size: 16px;
+font-weight: 400;
+line-height: 160%;
+
+}
+
+.plans-main-image #main-image-position{
+    color: #FFFFFF;
+font-size: 40px;
+font-weight: 700;
+font-family:work sans;
+margin-left: 64px;
+position: relative;
+top:59px;
+
+}
+.main-image-btn{
+height: 64px;
+padding:21px 36px ;
+
+border-radius: 5px;
+color:#F15B22;
+border: none;
+outline:none;
+font-size: 20px;
+font-weight: 600;
+margin-top: 26px;
+
+}
+
+/* footer style */
+
+footer{
+    max-height: 400px;
+    
+    background: #000;
+    color:#fff;
+    padding-top: 213px;
+    padding-left: 277px;
+    padding-right:213px;
+    padding-bottom: 160px;
+    margin-top: 30px;
+}
+.footer-align{
+    display: flex;
+    gap:100px;
+    
+}
+.footer-title{
+   
+font-size: 45px;
+font-weight: 700;
+color:#F8F8F8;
+
+
+}
+.footer-email,.footer-phone{
+    line-height:280%;
+    
+}
+.footer-description{
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+color:#FFFFFF;
+
+
+
+}
+.img-footer{
+    width:47px;
+    margin-right: 20px;
+}
+.input-btn{
+    margin: 0;
+}
+.subscribe-btn{
+    height: 64px;
+    padding: 23px 36px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F15B22;
+    border-radius: 8px;
+
+
+}
+label{
+    color:#fff;
+    margin-top: 210px;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+input[type="text"]{
+    color:#fff;
+    background: #000;
+    border:1.3px solid #f3f3f3;
+    width: 325px;
+    height: 64px;
+    border-radius: 8px;
+    margin-top: 21px;
+    margin-bottom: 20px;
+}
+
+
+::placeholder {
+font-size: 18px;
+font-weight: 400;
+color:#f3f3f3;
+padding-left: 10px;
+
+  }
+  .newslater{
+        background: #000;
+        margin-top: 100px;
+        margin-left: 200px;
+        width:80% ;
+        height:250px ;
+        background-image:url('../—Pngtree—award badge symbol design template_5974713.png');
+        background-repeat: no-repeat;
+        background-position:right top;
+        background-size: 60% 100%;
+        box-shadow: 10px 3px 5px 10px rgba(47, 5, 5, 0.75);
+        border-radius: 2px;
+        padding: 10px;
+        display: flex;
+        
+        
+
+
+  }
+
+  .newslater-title{
+    color:#f3f3f3;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 40px 40px;
+
+  }
+  .newslater-subscribe{
+    margin-bottom: 20px;
+    
+    
+  }
+  /* .newslater-btn{
+    color:#F8F8F8;
+    background: #000;
+    margin-left: 0;
+    height:69px;
+    border:3px solid #757575;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21px 36px;
+    
+
+  } */
+  
+#newslater-area input[type="text"]{
+    background:transparent;
+    border-radius:0 ;
+    border:1px solid #3d3d3d;
+} 
+#newslater-area{
+    display:flex;
+    margin-top: 21px;
+}
+
+#newslater-area button{
+    height: 64px;
+    margin-top: 21px;
+    padding: 21px 21px;
+    background: #000;
+    color:#f3f3f3;
+    font-weight: 500;
+    border: 1px solid #3d3d3d;
+    font-size: 24px;
+    font-weight: 600;
+}
+ #newslater-area ::placeholder{
+    color:white;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 10px;
+} 
+
+ #newlater-area input ,button{
+    display: block;
+    margin: 0;
+   
+ }
+
+ 
+
